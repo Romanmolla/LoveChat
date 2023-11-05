@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253286349137",
+    "project_id": "lovechat-ff2df",
+    "storage_bucket": "lovechat-ff2df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253286349137:android:8b9d1c0dc7aa42108b7b70",
+        "android_client_info": {
+          "package_name": "com.roman.lovechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyWBlNcDUSCbQ7CctCJunzilqfrCWOASQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

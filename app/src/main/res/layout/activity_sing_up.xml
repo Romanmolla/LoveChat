@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign8_"
+    tools:context=".SingUp">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="60dp"
+        android:text="singn-Up"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_margin="28dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_shape"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Your E-mail"
+        android:paddingStart="18dp"
+        android:shadowColor="@color/black"
+        android:shadowDy="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextFields"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_margin="28dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_shape"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:paddingStart="18dp"
+        android:shadowColor="@color/black"
+        android:shadowDy="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email1"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_shape"
+        android:elevation="10dp"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:paddingStart="18dp"
+        android:shadowColor="@color/black"
+        android:shadowDy="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username1"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextFields" />
+
+
+    <EditText
+        android:id="@+id/re_password"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:background="@drawable/edittext_shape"
+        android:elevation="10dp"
+        android:hint="@string/re_password"
+        android:inputType="text"
+        android:paddingStart="18dp"
+        android:shadowColor="@color/black"
+        android:shadowDy="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:ignore="MissingConstraints,RtlSymmetry,TextFields" />
+
+
+    <Button
+        android:id="@+id/sign_btn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#F44336"
+        android:text="@string/sign_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toEndOf="@+id/sign_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

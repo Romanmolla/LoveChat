@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoveChat</string>
+    <string name="wlcome">WLCOME</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="do_you_forgot_your_password">Do you forgot your password ?</string>
+    <string name="login">LogIn</string>
+    <string name="singn_up">Singn-Up</string>
+    <string name="re_password">RE-password</string>
+</resources>
